@@ -8,14 +8,16 @@ function Navigation() {
 
   return (
     <div className={styles.navigation}>
-      <img className={styles.logo} src={logo} alt='logo' />
-      <ul className={styles.navigationList}>
-        {navitems.map((item) => (
-          <li className={styles.navigationItem} key={item}>
-            {item}
-          </li>
-        ))}
-      </ul>
+      <div className={styles.mainNavigation}>
+        <img className={styles.logo} src={logo} alt='logo' />
+        <ul className={styles.navigationList}>
+          {navitems.map((item) => (
+            <li className={styles.navigationItem} key={item}>
+              <a href='/'>{item}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
       <SecondaryNaviagion />
     </div>
   );
