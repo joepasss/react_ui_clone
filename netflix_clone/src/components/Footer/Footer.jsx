@@ -1,9 +1,19 @@
 import React from 'react';
 
+import SocialLinks from '../SocialLinks';
+import FooterLinks from '../FooterLinks';
+
 import styles from './Footer.module.css';
 
 function Footer() {
-  return <div className={styles.footer}>Footer</div>;
+  return (
+    <footer className={styles.box}>
+      <div className={styles.socialLinks}>
+        <SocialLinks />
+      </div>
+      <FooterLinks />
+    </footer>
+  );
 }
 
 export default Footer;
