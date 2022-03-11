@@ -1,0 +1,25 @@
+###     GLOBAL    ###
+/assets
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+###     FEEDBACK_APP    ###
+
+# dependencies
+feedback_app_clone/node_modules
+feedback_app_clone/.pnp
+.pnp.js
+
+# testing
+feedback_app_clone/coverage
+
+# production
+feedback_app_clone/build
+
+# misc
+feedback_app_clone/npm-debug.log*
+feedback_app_clone/yarn-debug.log*
+feedback_app_clone/yarn-error.log*
