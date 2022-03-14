@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types';
 
-import '../Styles/Header.min.css';
-
 function Header({ text, bgColor, textColor }) {
   const headerStyles = {
     backgroundColor: bgColor,

@@ -1,6 +1,8 @@
-@import './Global/Variables.scss';
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+$backGroundColor: #202142;
+$whiteColor: #fff;
+$fontColor: #333;
 
 * {
   box-sizing: border-box;
@@ -9,7 +11,47 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Popins', sans-serif;
   background-color: $backGroundColor;
   color: $whiteColor;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: $whiteColor;
+  color: $fontColor;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.num-display {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  background: #ff6a95;
+  color: $whiteColor;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 19px;
+  border: 1px #eee solid;
 }
