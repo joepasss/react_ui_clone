@@ -23,3 +23,21 @@ feedback_app_clone/build
 feedback_app_clone/npm-debug.log*
 feedback_app_clone/yarn-debug.log*
 feedback_app_clone/yarn-error.log*
+
+###     NAVBAR_CLONE    ###
+
+# dependencies
+navbar_clone/node_modules
+navbar_clone/.pnp
+.pnp.js
+
+# testing
+navbar_clone/coverage
+
+# production
+navbar_clone/build
+
+# misc
+navbar_clone/npm-debug.log*
+navbar_clone/yarn-debug.log*
+navbar_clone/yarn-error.log*
