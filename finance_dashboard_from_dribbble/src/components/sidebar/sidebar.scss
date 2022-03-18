@@ -1,0 +1,80 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid grey;
+  min-height: 100vh;
+  background-color: white;
+
+  .top {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 40px;
+
+    .dot {
+      background-color: grey;
+      width: 5px;
+      height: 5px;
+      margin: 8px;
+      border-radius: 50%;
+    }
+
+    .first-row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .second-row {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .bottom {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        padding-bottom: 30px;
+
+        .icon {
+          padding-right: 10px;
+          color: grey;
+        }
+
+        .title {
+          color: grey;
+        }
+      }
+    }
+  }
+
+  .space {
+    height: 100px;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .avatarBox {
+      border: 1px solid black;
+      // border-radius: 30%;
+
+      .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 30%;
+        object-fit: cover;
+      }
+    }
+  }
+}
