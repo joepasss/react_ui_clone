@@ -66,8 +66,24 @@
     flex-direction: column;
 
     .avatarBox {
-      border: 1px solid black;
-      // border-radius: 30%;
+      padding-top: 6px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-bottom: 1px;
+      border-radius: 30%;
+      border: 0.5px solid grey;
+      position: relative;
+
+      .notificationCircle {
+        width: 13px;
+        height: 13px;
+        border: 2px solid white;
+        background-color: rgb(101, 167, 101);
+        border-radius: 50%;
+        position: absolute;
+        bottom: -4px;
+        right: -4px;
+      }
 
       .avatar {
         width: 50px;
@@ -75,6 +91,13 @@
         border-radius: 30%;
         object-fit: cover;
       }
+    }
+    .name {
+      padding-top: 13px;
+      letter-spacing: 0.3px;
+      font-weight: bold;
+      font-size: 14px;
+      padding-bottom: 40px;
     }
   }
 }

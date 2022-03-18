@@ -64,6 +64,7 @@ const Sidebar = () => {
             alt=''
             className='avatar'
           />
+          <div className='notificationCircle'></div>
         </div>
         <p className='name'>Joe Pass</p>
       </div>
